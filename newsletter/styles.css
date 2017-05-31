@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: black;
+  font-family: 'Merriweather', serif;
+
+}
+
+
+.nav-bar {
+  overflow: hidden;
+  position: fixed;
+  max-width: 1280px;
+  width: 100%;
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.nav-logo {
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin-left: 14px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #2B2F26;
+  padding-left: 10px;
+  padding-right: 50px;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.background {
+  width: 100%;
+}
+
+.sign-up {
+  width: 615px;
+  height: 380px;
+  background-color: white;
+}

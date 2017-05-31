@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: black;
+  font-family: 'Merriweather', serif;
+}
+
+main {
+  background-color: #F2F1E8;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.nav-bar {
+  overflow: hidden;
+  position: fixed;
+  max-width: 1280px;
+  width: 100%;
+  top: 0;
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.nav-logo {
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin-left: 14px;
+}
+
+.block-A {
+  padding: 120px 200px 20px 200px;
+  line-height: 40px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #2B2F26;
+  padding-left: 10px;
+  padding-right: 50px;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.birdhouse {
+  width: 160px;
+  height: 120px;
+  float: left;
+  margin-right: 34px;
+  margin-bottom: 34px;
+}
+
+blockquote {
+  border-left: 2px solid #92836D;
+  padding-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+blockquote i {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 68px;
+  padding-bottom: 70px;
+  font-weight: 400;
+}
+
+.background-3 {
+  width: 100%;
+  height: 320px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.background-1 {
+  width: 160px;
+  height: 120px;
+}
+.side {
+  float: right;
+  width: 170px;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.picture-text {
+  font-size: 70px;
+  position: relative;
+  bottom: 200px;
+  color: #F2F1E8;
+  left: 190px;
+  font-weight: 400;
+}
+
+.block-B {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+tr td {
+  text-align: center;
+  padding: 10px;
+  border: black 1px solid;
+}
+
+.table-head {
+  text-align: center;
+}
+
+.row-color {
+  background-color: #F2EADC;
+}
+
+footer {
+  background-color: #2B2F26;
+  color: #F3F0D7;
+  padding: 40px;
+  font-size: 18px;
+}
