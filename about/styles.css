@@ -45,6 +45,10 @@ main {
   line-height: 40px;
 }
 
+nav a:hover {
+  color: #CD5D67;
+}
+
 nav a {
   text-transform: uppercase;
   color: #2B2F26;
@@ -97,12 +101,22 @@ h1 {
   line-height: normal;
 }
 
+.middle-img {
+  background-image: url('../images/background-3.jpg');
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+}
+
 .picture-text {
   font-size: 70px;
-  position: relative;
-  bottom: 200px;
   color: #F2F1E8;
-  left: 190px;
   font-weight: 400;
 }
 

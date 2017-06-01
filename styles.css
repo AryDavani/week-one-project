@@ -37,6 +37,10 @@ main {
   margin-left: 14px;
 }
 
+nav a:hover {
+  color: #CD5D67;
+}
+
 nav a {
   text-transform: uppercase;
   color: #2B2F26;
